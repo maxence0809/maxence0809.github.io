@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV MAXENCE PEUZIAT</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        header { text-align: center; margin-bottom: 20px; }
+        h1 { color: #333; }
+        h2 { border-bottom: 2px solid #ccc; padding-bottom: 5px; margin-top: 20px; color: #555; }
+        .contact-info, .school-path, .internships { margin-bottom: 20px; }
+        .item { margin-bottom: 10px; }
+        .date { font-weight: bold; margin-right: 10px; }
+        /* Note: L'image n'est pas incluse dans le code car elle n'est pas un fichier séparé. */
+        /* La balise  est un placeholder. */
+    </style>
+</head>
+<body>
+
+    <header>
+        <p>[Veuillez insérer ici le tag &lt;img&gt; avec le chemin de la photo de MAXENCE PEUZIAT si vous l'avez.]</p>
+        [cite_start]<h1>MAXENCE PEUZIAT [cite: 1]</h1>
+        [cite_start]<p><strong>En recherche d'un stage [cite: 2]</strong></p>
+        [cite_start]<p>Domaine : **INFORMATIQUE - RESEAUX - CYBERSECURITE** [cite: 3]</p>
+        [cite_start]<p>Permis B [cite: 4]</p>
+    </header>
+
+    <div class="contact-info">
+        [cite_start]<h2>CONTACT [cite: 5]</h2>
+        <ul>
+            [cite_start]<li>Téléphone : 06 16 06 64 32 [cite: 6]</li>
+            [cite_start]<li>Email : peuziatmaxence@gmail.com [cite: 7]</li>
+            [cite_start]<li>Adresse : 5 Impasse des Mimosas, 83210 LA FARLEDE [cite: 8, 9]</li>
+        </ul>
+    </div>
+
+    <div class="school-path">
+        [cite_start]<h2>PARCOURS SCOLAIRE [cite: 10]</h2>
+        <div class="item">
+            [cite_start]<span class="date">2025-2026 [cite: 25][cite_start]</span> Lycée Cisson / Terminale CIEL [cite: 26] - [cite_start]Cybersécurité - informatique - réseaux, Toulon [cite: 26]
+        </div>
+        <div class="item">
+            [cite_start]<span class="date">2024-2025 [cite: 21][cite_start]</span> Lycée Cisson / 1ère CIEL [cite: 22] - [cite_start]Cybersécurité - informatique - réseaux, Toulon [cite: 23, 24]
+        </div>
+        <div class="item">
+            [cite_start]<span class="date">2023-2024 [cite: 18][cite_start]</span> Lycée Cisson / 2nde TNE (transition numérique énergétique), Toulon [cite: 19, 20]
+        </div>
+        <div class="item">
+            [cite_start]<span class="date">2023 [cite: 16][cite_start]</span> **Obtention Brevet des collèges mention Bien** [cite: 17]
+        </div>
+        <div class="item">
+            [cite_start]<span class="date">2022-2023 [cite: 14][cite_start]</span> Lycée Cisson / 3ème Prépa Métiers, Toulon [cite: 15]
+        </div>
+        <div class="item">
+            [cite_start]<span class="date">2019-2022 [cite: 11][cite_start]</span> Collège André Malraux, La Farlède [cite: 12, 13]
+        </div>
+    </div>
+
+    <div class="internships">
+        [cite_start]<h2>STAGES [cite: 27]</h2>
+        <div class="item">
+            [cite_start]<span class="date">2025 octobre [cite: 44][cite_start]</span> ITS Informatique Téléphonie - Vente maintenance et réparation, Pierrefeu du Var [cite: 44, 45]
+        </div>
+        <div class="item">
+            [cite_start]<span class="date">2025 mai [cite: 41][cite_start]</span> STUDIO CREATIF - Webdesign et graphisme, Toulon [cite: 42, 43]
+        </div>
+        <div class="item">
+            [cite_start]<span class="date">2024 novembre [cite: 38][cite_start]</span> Mairie de La Farlède - Service Informatique, La Farlède [cite: 39, 40]
+        </div>
+        <div class="item">
+            [cite_start]<span class="date">2024 février et juin [cite: 37][cite_start]</span> XEFI INFORMATIQUE - Maintenance et réseau informatique, La Garde [cite: 37]
+        </div>
+        <div class="item">
+            [cite_start]<span class="date">2023 avril [cite: 34][cite_start]</span> Nuances et Paysages - Paysagiste, La Crau [cite: 35, 36]
+        </div>
+        <div class="item">
+            [cite_start]<span class="date">2023 février [cite: 31][cite_start]</span> Entreprise Duoserve - Climatisation-chauffage, La Farlède [cite: 32, 33]
+        </div>
+        <div class="item">
+            [cite_start]<span class="date">2022 décembre [cite: 28][cite_start]</span> Porte-Hélicoptères DIXMUDE - Marine Nationale, Toulon [cite: 29, 30]
+        </div>
+    </div>
+
+</body>
+</html>
