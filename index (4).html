@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CV — Maxence Peuziat</title>
+  <style>
+    :root{--bg:#f6f7fb;--card:#fff;--accent:#0b63d6}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial}
+    body{background:var(--bg);display:flex;align-items:center;justify-content:center;padding:24px}
+    .wrap{width:100%;max-width:980px;background:var(--card);box-shadow:0 10px 30px rgba(12,20,40,0.08);border-radius:12px;overflow:hidden}
+    header{display:flex;align-items:center;gap:16px;padding:18px 20px;border-bottom:1px solid #eef1f6}
+    header h1{font-size:18px;margin:0}
+    .controls{margin-left:auto;display:flex;gap:8px}
+    .btn{background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:600}
+    .btn.secondary{background:transparent;color:var(--accent);border:1px solid rgba(11,99,214,0.12)}
+    .viewer{height:78vh;min-height:480px}
+    iframe{width:100%;height:100%;border:0}
+    .fallback{padding:20px;text-align:center}
+    .note{font-size:13px;color:#666;margin-top:8px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+        <rect width="24" height="24" rx="6" fill="#0B63D6" />
+        <path d="M6 8h12v1H6zM6 11h12v1H6zM6 14h8v1H6z" fill="#fff" />
+      </svg>
+      <div>
+        <h1>CV — Maxence Peuziat</h1>
+        <div class="note">Affichage intégré du PDF</div>
+      </div>
+      <div class="controls">
+        <!-- Le chemin contient des espaces encodés en %20 -->
+        <a class="btn" href="sandbox:/mnt/data/CV%20MAXENCE%20PEUZIAT.pdf" download>Télécharger le PDF</a>
+        <a class="btn secondary" href="sandbox:/mnt/data/CV%20MAXENCE%20PEUZIAT.pdf" target="_blank" rel="noopener">Ouvrir dans un nouvel onglet</a>
+      </div>
+    </header>
+
+    <div class="viewer">
+      <!-- iframe pointe vers le fichier PDF sur le disque monté. Si l'environnement ne permet pas l'affichage inline, utilisez le lien de téléchargement ci-dessus. -->
+      <iframe src="sandbox:/mnt/data/CV%20MAXENCE%20PEUZIAT.pdf" title="CV Maxence Peuziat"></iframe>
+    </div>
+
+    <div class="fallback">
+      <p>Si votre navigateur ne peut pas afficher le PDF inline, <a href="sandbox:/mnt/data/CV%20MAXENCE%20PEUZIAT.pdf" download>Téléchargez le CV ici</a>.</p>
+    </div>
+  </div>
+</body>
+</html>
